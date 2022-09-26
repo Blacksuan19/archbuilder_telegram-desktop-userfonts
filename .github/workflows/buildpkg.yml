@@ -3,6 +3,9 @@ on:
   push:
     tags:
       - '[0-9]*'
+      
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
